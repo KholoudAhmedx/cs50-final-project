@@ -3,9 +3,9 @@ A simple todo application that helps you maintain your day-to-day tasks or list 
 ## [Demo link ]: (https://youtu.be/aiN8VIyxHDg)
 
 # Tech/Framework used
-**Built with**
+## Built With
 <ul>
-  * [Node](https://nodejs.org/en/) - JavaScript runtime built on Chrome's V8 JavaScript engine  <br />
+ <a href = "https://nodejs.org/en/" >Node </a> - JavaScript runtime built on Chrome's V8 JavaScript engine  <br />
   [Express](https://www.tutorialspoint.com/nodejs/nodejs_express_framework.htm)- is a framework for building web applications on top of Node.js. It simplifies the server   creation process that is already available in Node. In case you were wondering, Node allows you to use JavaScript as your server-side language.<br />
   [mongoDb](https://www.mongodb.com/)- is a database. This is the place where you store information for your websites (or applications).<br />
 </ul>
