@@ -29,39 +29,10 @@ bcryptjs <br />
 ```
 - nmp init
 ```
+**Usage** : creates a package.json file which helps you manage dependencies
 ```
 - npm install nodemon
 ```
- 
-```
-- npm install express
-```
+**Usage** : restarts the server automatically
 
-```
-- npm install mongoose 
-```
-```
--npm install ejs
-```
-```
--npm install passport
-```
-```
--npm install connect-flash 
-```
-```
--npm install express-session
-```
-```
--npm install connect-session
-```
-```
--npm install passport
-```
-```
--npm install bootstrap
-```
-```
--npm install bcrypt
-```
 
