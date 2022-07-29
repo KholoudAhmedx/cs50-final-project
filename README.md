@@ -13,6 +13,7 @@ A simple todo application that helps you maintain your day-to-day tasks or list 
 
 ## Dependencies
 Nodejs <br />
+nodemon <br/>
 express <br />
 mongoose <br />
 connect-flash <br />
@@ -22,3 +23,15 @@ express-session <br />
 passport <br />
 bootstrap <br />
 bcryptjs <br />
+
+# Getting started
+## Run 
+- nmp init 
+creates a package.json file which helps you manage dependencies
+- npm install express
+- npm install mongoose 
+to connect and interact with the database
+- npm install nodemon 
+restarts the server automatically 
+-npm install ejs
+
