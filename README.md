@@ -11,7 +11,7 @@ A simple todo application that helps you maintain your day-to-day tasks or list 
 </ul>
   
 
-# Dependencies
+## Dependencies
 Nodejs <br />
 express <br />
 mongoose <br />
