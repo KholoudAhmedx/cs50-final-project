@@ -3,13 +3,13 @@ A simple todo application that helps you maintain your day-to-day tasks or list 
 ## [Demo link ]: (https://youtu.be/aiN8VIyxHDg)
 
 # Dependencies
-Nodejs
-express
-mongoose
-connect-flash
-connect-session
-ejs
-express-session
-passport
-bootstrap
-bcryptjs
+Nodejs <br />
+express <br />
+mongoose <br />
+connect-flash <br />
+connect-session <br />
+ejs <br />
+express-session <br />
+passport <br />
+bootstrap <br />
+bcryptjs <br />
