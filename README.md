@@ -27,13 +27,20 @@ bcryptjs <br />
 # Getting started
 ## Run 
 ```
-- nmp init <br />
+- nmp init
 ```
 creates a package.json file which helps you manage dependencies
+```
 - npm install express
+```
+```
 - npm install mongoose 
+```
 to connect and interact with the database
-- npm install nodemon 
+```
+- npm install nodemon
+```
 restarts the server automatically 
+```
 -npm install ejs
-
+```
