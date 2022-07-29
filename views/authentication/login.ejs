@@ -1,0 +1,22 @@
+<html lang = "en">
+    <%- include('../partials/head.ejs') %>
+    <body id = "_body">
+        <%- include('../partials/nav.ejs') %>
+        <%- include('../partials/messsages.ejs') %>
+    <div class = "login-form">
+        <form action = "/login" method = "post">
+            <label for = "email">Email</label>
+            <input type = "text" id = "email" name = "email" required>
+            <label for = "password">Password</label>
+            <input type = "password" id = "password" name = "password" required>
+            <button id = "bttn">Login</button>
+            <p class="lead mt-4">
+                No Account? <a href="/register">Register</a>
+            </p>
+        </form> 
+        
+
+    </div>
+    <%- include('../partials/footer.ejs') %>
+    </body>
+</html>

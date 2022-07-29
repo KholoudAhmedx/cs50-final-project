@@ -1,0 +1,116 @@
+
+*{
+    margin : 0;
+    padding: 0;
+}
+
+._body{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+._nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+    
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 0%;
+}
+nav li{
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav h1{
+    font-size: 2.5em; 
+    margin-bottom: 0;
+    font-weight: italic; 
+}
+nav a{
+    color: mediumvioletred;
+}
+h4 a {
+    color: mediumvioletred;
+}
+nav a {
+    text-decoration: none;
+    /* color:rgb(16, 214, 141); */
+}
+
+.register-form form , .login-form form{
+
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.register-form input, .login-form input{
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+}
+.register-form label, .login-form input{
+    display: block;
+    margin-top: 24px;
+}
+
+footer{
+  text-align: center;
+  margin: 80px auto 20px;
+}
+
+.register-form button, .login-form button{
+  margin-top: 20px;
+  background:black;
+  color: white;
+  padding: 6px;
+  border: 0;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+.alert {
+    width:40%;
+    margin: 20px auto;
+    padding: 0 20px; 
+      
+}
+
+form #btn1 {
+    background:white;
+    color : mediumvioletred;
+}
+
+#form1 {
+    
+    width :50%;
+    margin: 20px auto;
+    padding: 0 20px; 
+    box-sizing:content-box;
+}
+.libasic {
+    display: flex;
+    justify-content : space-between;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+
+ul.list-group.mt-5 {
+    width :70%;
+    margin: 20px auto;
+    padding: 0 20px; 
+    box-sizing:content-box;
+
+}
+
+.header4 {
+    font-weight: bold;
+}

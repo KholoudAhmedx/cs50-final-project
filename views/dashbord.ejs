@@ -1,0 +1,40 @@
+<html lang ="en">
+    <%- include('./partials/head.ejs') %>
+    <body>
+        <%- include('./partials/nav.ejs') %> 
+        
+        <p class = "greeting"><h2 style="font-weight:bold ;">Welcome, <%= name %></h2></p>
+        <div class = "container mt-5">
+            <form  action = "/add/todo"class = "d-flex" id = "form1" method = "post">
+                <input type = "text" name = "todo" id = "input1" class = "form-control" 
+                 placeholder="Add a task to be done" required>
+                <button type = "submit" id = "btn1" class = "btn btn-md btn-secondray mx-3">Submit</button>
+            </form>
+            <ul class = "list-group mt-5">
+               <% todo.forEach(todos => { %>
+                <li class =  "list-group-item libasic" 
+                <% if(todos.done == 1) { %>
+                    style = "background-color : #accec6; text-decoration : line-through;"
+                    
+
+                <% } %> > <%= todos.todo %>
+                <span>
+                    
+                    <% if(todos.done == 0) { %>
+                        <a href = "/update/todo/<%= todos._id %>" class="btn btn-success btn-small" style="margin-right:0px"> &#10003;</a>
+
+                    <% } %>
+                
+                <a href = "/delete/todo/<%= todos.id %>" class = "btn btn-secondray btn-sml" style = "background-color: mediumvioletred; color: aliceblue;"><i class="fa fa-trash" aria-hidden="true"></i></a>
+                </span>
+                </li>
+               <% }) %>
+               
+            </ul>
+        </div>
+
+
+        <%- include('./partials/footer.ejs') %>
+        
+    </body>
+</html>

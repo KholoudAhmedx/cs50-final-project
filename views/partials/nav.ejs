@@ -1,0 +1,22 @@
+<body class = "_body">
+    <nav class = "_nav">
+        <div class = "site-title">
+            <a href = "/" class = "brand"><h1>TODOAPP</h1></a>
+        </div>
+        <ul class = "_ul">
+            <% if(isAuthenticated) { %>
+            <!-- <li class = "_li"><a href = "/dashbord">Dashboard</a></li> -->
+            <li class = "_li"><a href = "/logout">Logout</a></li>
+
+           <% } else { %>
+            <li class = "_li"><a href = "/Register">Register</a></li>
+            <li class = "_li"><a href = "/login">Login</a></li>
+
+           <% } %>
+            
+            
+        </ul>
+    
+    </nav>
+
+</body>
