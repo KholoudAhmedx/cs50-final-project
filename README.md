@@ -60,6 +60,21 @@ npm install connect-flash
 a special area of the session used for storing messages
 
 ```
+npm install express-session
+```
+
+```
 npm install connect-session
+```
+```
+npm install passport
+```
+Authentication middleware for nodejs
+
+```
+npm install bootstrap
+```
+```
+npm install bcrypt
 ```
 
