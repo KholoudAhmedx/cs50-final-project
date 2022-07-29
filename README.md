@@ -3,7 +3,7 @@ A simple todo application that helps you maintain your day-to-day tasks or list 
 ## [Demo link ]: (https://youtu.be/aiN8VIyxHDg)
 
 # Tech/Framework used
-** Built with **
+**Built with**
 <ul>
   Nodejs <br />
   Express <br />
