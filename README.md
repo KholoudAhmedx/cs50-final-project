@@ -31,16 +31,35 @@ bcryptjs <br />
 ```
 creates a package.json file which helps you manage dependencies
 ```
-- npm install express
-```
-```
-- npm install mongoose 
-```
-to connect and interact with the database
-```
 - npm install nodemon
 ```
 restarts the server automatically 
 ```
+- npm install express
+```
+
+```
+- npm install mongoose 
+```
+to connect and interact with the database
+
+```
 -npm install ejs
 ```
+something that express apps can use to inject dynamic data and content <br />
+(alternative to html files whereby we can inject dynamic data and content into diffrent templates using a view engine)
+
+```
+npm install passport
+```
+Express-compatible authentication middleware for Node.js
+
+```
+npm install connect-flash 
+```
+a special area of the session used for storing messages
+
+```
+npm install connect-session
+```
+
