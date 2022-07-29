@@ -40,37 +40,28 @@ bcryptjs <br />
 ```
 - npm install mongoose 
 ```
-
-
 ```
 -npm install ejs
 ```
-
-
 ```
-npm install passport
-```
-
-
-```
-npm install connect-flash 
-```
-
-```
-npm install express-session
-```
-
-```
-npm install connect-session
+-npm install passport
 ```
 ```
-npm install passport
-```
-
-```
-npm install bootstrap
+-npm install connect-flash 
 ```
 ```
-npm install bcrypt
+-npm install express-session
+```
+```
+-npm install connect-session
+```
+```
+-npm install passport
+```
+```
+-npm install bootstrap
+```
+```
+-npm install bcrypt
 ```
 
