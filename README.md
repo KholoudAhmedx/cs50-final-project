@@ -27,7 +27,7 @@ bcryptjs <br />
 # Getting started
 ## Run 
 ```
-- nmp init
+- npm init
 ```
 **Usage** : creates a package.json file which helps you manage dependencies
 ```
