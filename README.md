@@ -27,11 +27,11 @@ bcryptjs <br />
 
 # Getting started
 ## prerequisites 
-Below steps are needed only for the first time when you setup your machine. <br />
+Below installing steps are needed only for the first time when you setup your machine. <br />
 Install nodejs server from https://nodejs.org/en/
 
 ## Installing 
-1.Clone this git repo, if you have not done already <br />
+1. Clone this git repo, if you have not done already <br />
 ```
 git clone https://github.com/ikholoudmohamedd/cs50-final-project.git
 ```
@@ -45,8 +45,11 @@ npm install
 ``` 
 Once the dependencies have been installed, you are now ready to use the program.<br />
 
-4. To restart your server automatically you can run this command below, it restarts the server for you each time you update your code and save it.
+## Run 
+Once the dependencies are installed, in the terminal, you can run the command `node app.js`. This will run the application and the user can go to <a href = http://localhost:3000/> `localhost:3000/` </a> to view the application, or you can install nodemon package -it restarts the server for you each time you update your code and save it- through this command <br />
 ```
-npm install nodemon
+npm install nodemon 
 ```
+then run the command `nodemon app` in the terminal and go to `localhost:3000` to view the app.<br />
+
 
