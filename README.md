@@ -1,5 +1,7 @@
 # cs50-final-project
-A simple todo application that helps you maintain your day-to-day tasks or list everything that you have to do.
+A simple todo application that helps you maintain your day-to-day tasks or list everything that you have to do which uses CRUD operations to store the data of each user into the database.<br />
+To use the application you first have to create a new account then to login to be able to add/update/delete new tasks.
+
 ## [Demo link ]: (https://youtu.be/aiN8VIyxHDg)
 
 # Tech/Framework used
@@ -25,6 +27,21 @@ bootstrap <br />
 bcryptjs <br />
 
 # Getting started
+## prerequisites 
+Below steps are needed only for the first time when you setup your machine. <br />
+Install nodejs server from https://nodejs.org/en/
+
+## Installing 
+1.Clone this git repo, if you have not done already <br />
+```
+git clone https://github.com/ikholoudmohamedd/cs50-final-project.git
+```
+2. Install node module dependencies from the Json package file. This can be done by running the command <br />
+```
+npm install 
+``` 
+from the terminal. <br/> Once the dependencies have been installed, you are now ready to use the program.
+
 ## Run 
 ```
 - npm init
@@ -34,5 +51,8 @@ bcryptjs <br />
 - npm install nodemon
 ```
 **Usage** : restarts the server automatically
+
+
+
 
 
