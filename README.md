@@ -66,8 +66,8 @@ Now you can log in and the first thing you have to do is <br />
     2.connect to your application ` 
     3.then take the URL copy one like this ` mongodb+srv://user1:<password>@cluster0.hqfug4d.mongodb.net/?retryWrites=true&w=majority ` <br />
 Now you should be able to create a new collection - if you still cannot add a new collection then 
-   1.go to ` Network access ` then `
-   2.add this IP address `0.0.0.0/0`a and make it accessible from every where- 
+   1.go to ` Network access ` then 
+   2.add this IP address ` 0.0.0.0/0 ` and make it accessible from every where- 
    3.give a name to the database , then give a name to your collection and go to code. <br />
    
 **code changes**
