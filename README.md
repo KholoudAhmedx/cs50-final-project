@@ -44,6 +44,7 @@ npm init
 npm install 
 ``` 
 Once the dependencies have been installed, you are now ready to use the program.<br />
+
 4. To restart your server automatically you can run this command below, it restarts the server for you each time you update your code and save it.
 ```
 npm install nodemon
