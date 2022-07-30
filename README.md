@@ -56,8 +56,8 @@ You should be able to see this <br />
 <br />
 Now to be able to login and to register you have to create a free acount, if you don't have one already, on <a href = "https://www.mongodb.com/atlas/database" >MongodbAtlas</a> It's a cloud database which is already hosted for us and it's a lot easier to manage <br/>
 Now you can log in and the first thing you have to do is <br />
-1. ` create a new project
-2. ` then go to `Database access` 
+1. ` create a new project `
+2. then go to ` Database access` 
 3. ` add a new user `  and provide username and password and copy them.
 4.  Go to ` Network access ` to add an IP address , just add your current IP address then hit confirm.
 5.   Now go to ` Database` under deployment section and build a new database > choose shared one > give a name to your cluster for example **todoApp** and then hit ` create cluster ` .
