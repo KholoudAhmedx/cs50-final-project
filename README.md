@@ -14,7 +14,6 @@ To use the application you first have to create a new account then to login to b
   
 
 ## Dependencies
-Nodejs <br />
 nodemon <br/>
 express <br />
 mongoose <br />
@@ -36,23 +35,17 @@ Install nodejs server from https://nodejs.org/en/
 ```
 git clone https://github.com/ikholoudmohamedd/cs50-final-project.git
 ```
-2. Install node module dependencies from the Json package file. This can be done by running the command <br />
+2. Creates a package.json file which helps you manage dependencies using this command 
+```
+npm init
+```
+3. Install node module dependencies from the Json package file. This can be done by running the command from the terminal. <br/>
 ```
 npm install 
 ``` 
-from the terminal. <br/> Once the dependencies have been installed, you are now ready to use the program.
-
-## Run 
+Once the dependencies have been installed, you are now ready to use the program.<br />
+4. To restart your server automatically you can run this command below, it restarts the server for you each time you update your code and save it.
 ```
-- npm init
+npm install nodemon
 ```
-**Usage** : creates a package.json file which helps you manage dependencies
-```
-- npm install nodemon
-```
-**Usage** : restarts the server automatically
-
-
-
-
 
