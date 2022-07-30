@@ -51,4 +51,14 @@ Once the dependencies are installed, in the terminal, you can run the command `n
 npm install nodemon 
 ```
 then run the command `nodemon app` in the terminal and go to `localhost:3000` to view the app.<br />
-
+You should be able to see this <br />
+<img src = "/images/nodemon.png?raw=true">
+<br />
+Now to be able to login and to register you have to create a free acount, if you don't have one already, on <a href = "https://www.mongodb.com/atlas/database" >MongodbAtlas</a>(It's a cloud database which is already hosted for us and it's a lot easier to manage)<br/>
+Once you created an account, you can log in and the first thing you have to do is ->` create a new project ` then go to `Database access`  ` add a new user `  and provide username and password and copy them because we gonna use them in a couple of minutes. Go to ` Network access ` to add an IP address , just add your current IP address then hit confirm. Now go to ` Database` under deployment section and build a new database > choose shared one > give a name to your cluster for example **todoApp** and then hit ` create cluster ` . Now after you created the first cluster you have to connect it to your code so go to ` connect button ` choose ` connect your application ` then take the URL copy one like this ` mongodb+srv://user1:<password>@cluster0.hqfug4d.mongodb.net/?retryWrites=true&w=majority ` <br />
+Now you should be able to create a new collection - if you still cannot add a new collection then go to ` Network access ` then ` add this IP address `0.0.0.0/0`a and make it accessible from every where- give a name to the database , then give a name to your collection and go to code
+1. You need to change the username and password given in the database configuration with the username and password you have created
+<img src = "/images/config.png?raw=true">
+2. go to ` models ` in `User.js ` change 'User' with the name of your collection and do the same in ` todo.js ` 
+<img src = "/images/model.png?raw= true">
+Now your application should be ready to work.
